@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Outer Glow Filter -->
+  <defs>
+    <linearGradient id="bridgeGrad" x1="4" y1="36" x2="44" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="50%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base Icon Plate -->
+  <rect width="48" height="48" rx="12" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+
+  <!-- Citizen Node (Left) -->
+  <circle cx="12" cy="30" r="3.5" fill="#F97316" />
+  <path d="M8 39c0-2.8 2-5 4-5s4 2.2 4 5" stroke="#F97316" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Government Benefits Node (Right) -->
+  <rect x="32" y="16" width="8" height="8" rx="2" fill="#10B981" />
+  <path d="M36 12l-4 4h8l-4-4z" fill="#10B981"/>
+
+  <!-- The Bridge Arch Connecting Citizen to Benefits -->
+  <path d="M14 28 C 18 16, 30 14, 34 20" stroke="url(#bridgeGrad)" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Bridge Suspension Cables -->
+  <line x1="20" y1="21" x2="20" y2="34" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <line x1="26" y1="18" x2="26" y2="34" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <line x1="32" y1="22" x2="32" y2="34" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" stroke-dasharray="2 2"/>
+
+  <!-- Bridge Road Base -->
+  <path d="M8 35h32" stroke="white" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+</svg>
